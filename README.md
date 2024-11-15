@@ -2,6 +2,8 @@
 
 OpenMeteo-WeatherCast
 
+![OpenMeteo_Screen](https://github.com/user-attachments/assets/9d547d44-8e36-4f34-917e-a340da5bc95e)
+
 Current and 3 days weather cast from OpenMeteo API
 
 Suite au changement des conditions d'utilisation de l'API OpenWeatherMap càd enregistrement d'un mode de paiement même pour l'option free (ce que je ne souhaitais pas, je suis tombé sur un tutoriel du très bon site Random Nerd
