@@ -9,7 +9,7 @@ qui utilise l'API du serveur OpenMeteo dont l'accès et l'utilisation restent gr
 [](https://github.com/HaroleDev/Airycons/tree/main)
 
 De plus ce site permet l'obtention des données de plusieurs services météo.
-Les données récupérées peuvent au format XLSX, CSV et pour ce qui nous intéresse au format Json.
+Les données peuvent êtres récupérées au format XLSX, CSV et pour ce qui nous intéresse au format Json.
 Pour le mode current, l'extraction ne pose aucun problème, mais avec les datas daily et hourly je n'ai pas réussi l'extracion en mode [indice], j'ai donc écrit une courte routine pour lire les datas pour chaque jour afin de les exploiter dans le programme.
 
 https://open-meteo.com/en/docs
