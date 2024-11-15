@@ -7,7 +7,11 @@ Suite au changement des conditions d'utilisation de l'API OpenWeatherMap càd en
 qui utilise l'API du serveur OpenMeteo dont l'accès et l'utilisation restent gratuits (pour le moment).
 
 De plus ce site permet l'obtention des données de plusieurs services météo.
-Les données récupérées [peuvent](https://github.com/HaroleDev/Airycons/tree/main) être au format XLSX, CSV et pour ce qui nous intéresse au format Json.
+Les données récupérées
+
+[](https://github.com/HaroleDev/Airycons/tree/main)
+
+peuvent au format XLSX, CSV et pour ce qui nous intéresse au format Json.
 Pour le mode current, l'extraction ne pose aucun problème, mais avec les datas daily et hourly je n'ai pas réussi l'extracion en mode [indice], j'ai donc écrit une courte routine pour lire les datas pour chaque jour afin de les exploiter dans le programme.
 
 https://open-meteo.com/en/docs
@@ -27,12 +31,16 @@ le sketch est composé de:
 Je n'ai pas réussi à 'uploader' le fichier data des images (sûrement trop volumineux), il faut donc le créer et y placer le contenu des quatres fichiers 'iconess'
 
 Un grand merci HaroleDev pour le partage de ses icones, dont je publie le lien ci-dessous
+
 https://github.com/HaroleDev/Airycons/tree/main
+
 et Bodmer pour ses librairies
+
 https://github.com/Bodmer/TFT_eSPI
 https://github.com/Bodmer/TJpg_Decoder
 
 Autres bases acquises sur le site Randomnerdtutorials
+
 https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/
 https://randomnerdtutorials.com/esp32-tft-lvgl-weather-station/
 
