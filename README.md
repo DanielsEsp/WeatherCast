@@ -1,6 +1,7 @@
 # WeatherCast
 
 OpenMeteo-WeatherCast
+
 Current and 3 days weather cast from OpenMeteo API
 
 Suite au changement des conditions d'utilisation de l'API OpenWeatherMap càd enregistrement d'un mode de paiement même pour l'option free (ce que je ne souhaitais pas, je suis tombé sur un tutoriel du très bon site Random Nerd
