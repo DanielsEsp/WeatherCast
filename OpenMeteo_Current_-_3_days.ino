@@ -188,17 +188,17 @@ void loop() {
          url = daily; daily_datas_load();
          dataReceve = weather_code_txt; datas_extraction();
          for (int pointeur = 0; pointeur <= 27; pointeur ++) {
-              if (dataTableau[1] == dataIcones[pointeur]) { 
+              if (dataTableau[2] == dataIcones[pointeur]) { 
                   x = 10; y = 245; icone = "P_" + dataIcones[pointeur]; icone_display();
                  } 
              }                           
          for (int pointeur = 0; pointeur <= 27; pointeur ++) {
-              if (dataTableau[2] == dataIcones[pointeur]) { 
+              if (dataTableau[3] == dataIcones[pointeur]) { 
                   x = 160; y = 245; icone = "P_" + dataIcones[pointeur]; icone_display();
                  } 
              }  
          for (int pointeur = 0; pointeur <= 27; pointeur ++) {
-              if (dataTableau[3] == dataIcones[pointeur]) { 
+              if (dataTableau[4] == dataIcones[pointeur]) { 
                   x = 310; y = 245; icone = "P_" + dataIcones[pointeur]; icone_display();
                  } 
              }  
@@ -208,19 +208,19 @@ void loop() {
          x = 390; y = 250; icone = "fleches"; icone_display();  
 
          dataReceve = tempMax; datas_extraction();
-         dataReceve =(dataTableau[1]); temp_format(); tempMax = dataExtract; dataExtract = "";
-         tft.setFreeFont(FF18); tft.drawRightString(tempMax, 150, 255, 1); tft.drawString("o", 152, 250, 2);
          dataReceve =(dataTableau[2]); temp_format(); tempMax = dataExtract; dataExtract = "";
-         tft.setFreeFont(FF18); tft.drawRightString(tempMax, 300, 255, 1); tft.drawString("o", 302, 250, 2);
+         tft.setFreeFont(FF18); tft.drawRightString(tempMax, 150, 255, 1); tft.drawString("o", 152, 250, 2);
          dataReceve =(dataTableau[3]); temp_format(); tempMax = dataExtract; dataExtract = "";
+         tft.setFreeFont(FF18); tft.drawRightString(tempMax, 300, 255, 1); tft.drawString("o", 302, 250, 2);
+         dataReceve =(dataTableau[4]); temp_format(); tempMax = dataExtract; dataExtract = "";
          tft.setFreeFont(FF18); tft.drawRightString(tempMax, 455, 255, 1); tft.drawString("o", 457, 250, 2);
 
          dataReceve = tempMin; datas_extraction();
-         dataReceve =(dataTableau[1]); temp_format(); tempMin = dataExtract; dataExtract = "";
-         tft.setFreeFont(FF18); tft.drawRightString(tempMin, 150, 280, 1); tft.drawString("o", 152, 275, 2);
          dataReceve =(dataTableau[2]); temp_format(); tempMin = dataExtract; dataExtract = "";
-         tft.setFreeFont(FF18); tft.drawRightString(tempMin, 300, 280, 1); tft.drawString("o", 302, 275, 2);
+         tft.setFreeFont(FF18); tft.drawRightString(tempMin, 150, 280, 1); tft.drawString("o", 152, 275, 2);
          dataReceve =(dataTableau[3]); temp_format(); tempMin = dataExtract; dataExtract = "";
+         tft.setFreeFont(FF18); tft.drawRightString(tempMin, 300, 280, 1); tft.drawString("o", 302, 275, 2);
+         dataReceve =(dataTableau[4]); temp_format(); tempMin = dataExtract; dataExtract = "";
          tft.setFreeFont(FF18); tft.drawRightString(tempMin, 455, 280, 1); tft.drawString("o", 457, 275, 2);
 
         }
